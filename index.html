@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbdc6a337d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Betel </span><br>from Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I’m Betel fasika, a dedicated and creative Web Development, UI/UX Design, App Development. I have spent the last 4 years honing my skills and gaining hands-on experience in relevant skills or industries. My journey has been driven by a commitment to delivering high-quality work that meets the unique needs of my clients.</p>
+                        <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contentes active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App development</span><br>building Adroid/IOS apps</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Bookstore web for Web based project</li>
+                            <li><span>2024</span><br>Bookstore Web Development on ASTU</li>
+                            <li><span>2024</span><br>Music Player Mobile App Development on ASTU</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="education">
+                        <ul>
+                            <li><span>2021 - current</span><br>Softaware Enginering at Adama science and technology</li>
+                            <li><span>2023</span><br>UI/UX designing on Udemy</li>
+                            <li><span>2023</span><br>Front-End web development from meta on Coursera</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- -----------------------services----------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As a skilled web developer, I offer a range of services designed to help businesses establish a strong online presence and achieve their digital goals. My focus is on delivering high-quality, responsive, and user-friendly websites that cater to the unique needs of each client.</p>                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I specialize in crafting intuitive and visually appealing user interfaces and experiences. My UI/UX design services encompass.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>I provide end-to-end mobile app development services for both iOS and Android platforms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg" >
+                <div class="layer">
+                    <h3>UI/UX Design</h3>
+                    <P>As a passionate UI/UX designer, I focus on creating intuitive and engaging user experiences that meet both user needs and business goals. My approach combines research, creativity, and a deep understanding of user behavior to deliver designs that are not only visually appealing but also functional.</P>
+                    <a target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" >
+                <div class="layer">
+                    <h3>Music player App</h3>
+                    <P>The Music Player App is designed to enhance the listening experience for users by providing a sleek, intuitive interface that makes music discovery and playback effortless. The primary goal was to create a user-centric design that resonates with music lovers. The final design was well-received, leading to increased user engagement and positive feedback regarding its intuitive navigation. Post-launch analytics indicated a 30% increase in daily active users compared to previous iterations.</P>
+                    <a ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" >
+                <div class="layer">
+                    <h3>Bookstore Webesite</h3>
+                    <P>The Bookstore Website aims to provide an engaging online shopping experience for book enthusiasts. The design focuses on making it easy for users to discover new books and complete purchases seamlessly.
+                        The bookstore website launched successfully with initial sales exceeding projections by 25%. User feedback highlighted the intuitive design and ease of navigation as standout features.</P>
+                    <a><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------contact----------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>@betty_bf</p>
+                <p><i class="fa-solid fa-square-phone"></i>+251973582231</p>
+                <div class="social-icons">
+                    <a ><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-solid fa-paper-plane"></i></a>
+                </div>
+                <a download class="btn btn2">Download CV</a>
+            </div>
+           
+            <div class="contact-right">
+                <form name="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
